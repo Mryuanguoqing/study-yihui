@@ -1,0 +1,7 @@
+biz3:
+  yml:
+    type: 1
+    name: biz2.yml.name
+    ary:
+      - a: hello
+      - b: world
