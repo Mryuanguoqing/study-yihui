@@ -1,5 +1,4 @@
-biz3:
-  yml:
+yml:
     type: 1
     name: biz2.yml.name
     ary:

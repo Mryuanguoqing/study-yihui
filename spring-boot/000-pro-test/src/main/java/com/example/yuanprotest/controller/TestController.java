@@ -27,7 +27,6 @@ public class TestController {
         System.out.println(properBean.toString());
         System.out.println(properBean.getId());
         List<Map<String, String>> ary = ymlBean.getAry();
-        System.out.println(ary.get(0));
         return "hello world";
     }
 }

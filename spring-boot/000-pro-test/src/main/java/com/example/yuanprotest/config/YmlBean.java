@@ -2,8 +2,7 @@ package com.example.yuanprotest.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Map;
@@ -12,9 +11,8 @@ import java.util.Map;
  * @author yuangq
  */
 @Data
-@Configuration
-@PropertySource({"classpath:biz2.yml"})
-@ConfigurationProperties(prefix = "biz3.yml")
+@Component
+@ConfigurationProperties(prefix = "yml")
 public class YmlBean {
     private String type;
 
